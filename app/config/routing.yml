@@ -1,0 +1,18 @@
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
+api_app:
+    resource: "@AppBundle/Controller/ApiController.php"
+    type: rest
+    prefix: app/api/
+
+api_freetime:
+    resource: "@AppBundle/Controller/ApiDisponibilityController.php"
+    type: rest
+    prefix: app/api
+
+car:
+    resource: "@CarBundle/Controller/"
+    type:     annotation
+    prefix:   /
