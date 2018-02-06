@@ -10,8 +10,8 @@
 			},
 			"columns" : [
 				{'data' :'id'},
-				{'data' :'fecha'},
-				{'data' :'hora'},
+				{'data' :'date'},
+				{'data' :'heure'},
 			]
 		});
 	});
